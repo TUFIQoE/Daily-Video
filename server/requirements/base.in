@@ -1,0 +1,13 @@
+Django
+djangorestframework
+djoser
+drf-flex-fields
+django-filter
+django-jazzmin
+django-extensions
+django-admin-display
+psycopg2-binary
+ipython
+environs
+drf-yasg
+django-json-widget

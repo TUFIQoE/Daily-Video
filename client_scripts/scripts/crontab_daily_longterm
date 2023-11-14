@@ -1,0 +1,9 @@
+#!/bin/bash
+# backup content of longterm-server (only user content)
+
+BACKUP_USER="tufiqoe-backup"
+BACKUP_SCRIPT="/home/tufiqoe-backup/longterm-backup/backup.py"
+BACKUP_DIR="/mnt/TUFIQoE_Long_Term/"
+BACKUP_KEY="/home/tufiqoe-backup/.ssh/media@longterm.yourdomain.io"
+
+/usr/sbin/runuser -l ${BACKUP_USER} -c "/usr/bin/python3 ${BACKUP_SCRIPT} --server=prod --key=${BACKUP_KEY} --dest_location=${BACKUP_DIR}"

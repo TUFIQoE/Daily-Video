@@ -1,0 +1,7 @@
+# ignore output json
+*.json
+*.txt
+
+# ignore videos
+*.mp4
+*.avi

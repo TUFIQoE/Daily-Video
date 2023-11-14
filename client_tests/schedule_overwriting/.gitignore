@@ -1,0 +1,6 @@
+# ignore output json
+*.json
+*.txt
+
+# exclude jsons from templates/
+!templates/*.json
