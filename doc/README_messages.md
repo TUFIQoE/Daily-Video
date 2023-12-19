@@ -14,7 +14,7 @@ Communication using the REST API is secured with the SSL protocol and authorizat
 # [schedule-example.json](./json-templates/schedule-example.json)
 This is an exemplary JSON file for configuring an experiment per user. The preferred naming convention is: schedule-NAME_SURNAME_PHONENUMBER.json. Additional information includes:
 - The experiment is configured for the next few days (not the entire period); in case of collisions, [overwriting rules](./README_overwriting_rules.md) (processed on the server side) are applied.
-- Bulk upload is supported by the Python script [upload-schedule.py](./client_scripts/scripts/upload-schedule.py).
+- Bulk upload is supported by the Python script [upload-schedule.py](../client_scripts/scripts/upload-schedule.py).
 - If the user (external_id) does not exist, create it and populate it with data (schedule).
 - **Anonymize** data by removing name, surname, and phone number.
 - `service_name` can be {"", "A", "B", "C", "D", "E", "F", ...}.
