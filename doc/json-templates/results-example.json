@@ -241,75 +241,6 @@
             },
             "memory_free": 105883994647,
             "memory_total": 127933894656,
-            "playback_data": [
-                {
-                    "brt": 0.324,
-                    "tstp": "2022-02-15T17:51:22.552+01:00",
-                    "pos_ms": 478,
-                    "ful_sta": "FULLSCREEN",
-                    "p_orien": "LANDSCAPE_LEFT",
-                    "playing": true
-                }
-            ],
-            "gyroscope_data": [
-
-                {
-                    "x": 0.02533,
-                    "y": 0.67125,
-                    "z": -0.05296,
-                    "tstp": "2022-02-15T17:51:31.577+01:00"
-                }
-            ],
-            "accelerometer_data": [
-                {
-                    "x": 0.01143,
-                    "y": 0.01143,
-                    "z": 0.01143,
-                    "tstp": "2022-02-15T17:51:22.093+01:00"
-                }
-            ],
-            "playback_ended": "2022-02-15T17:51:31.872+01:00",
-            "video_duration": 90020,
-            "timezone_offset": -60,
-            "playback_started": "2022-02-15T17:51:22.036+01:00",
-            "query_started": "2022-02-15T17:51:33.000+01:00",
-            "user_feedback": [
-                {
-                    "video": "cudotworcy_vmaf100.mp4",
-                    "external_id": "xxxxx",
-                    "date": "2022-01-07T20:18:46.889000+01:00",
-                    "comment": "1111"
-                },
-                {
-                    "video": "cudotworcy_vmaf100.mp4",
-                    "external_id": "xxxxx",
-                    "date": "2022-01-07T20:48:46.889000+01:00",
-                    "comment": "22222"
-                }
-            ]
-        }
-    },
-    {
-        "date": "2022-02-15T18:52:09.104000+01:00",
-        "external_id": "xxxxx",
-        "result": {
-            "video": "cudotworcy_vmaf100_B.mp4",
-            "service": "A",
-            "timezone": "Europe/Warsaw",
-            "reply_form": [],
-            "device_info": {
-                "os": "ios",
-                "brand": "Apple",
-                "model": "iPhone 11",
-                "os_name": "iOS",
-                "model_id": "iPhone12,1",
-                "os_version": "15.0.2",
-                "manufacturer": "Apple",
-                "device_year_class": 2019,
-                "platform_api_level": null
-            },
-            "memory_free": 105883994647,
-            "memory_total": 127933894656,
             "playback_data": {
                 "playing": [
                     true,
@@ -317,9 +248,9 @@
                     true
                 ],
                 "timestamp": [
-                    "2022-02-22T13:18:26.718+01:00",
-                    "2022-02-22T13:18:26.969+01:00",
-                    "2022-02-22T13:18:27.236+01:00"
+                    "2022-02-15T13:18:26.718+01:00",
+                    "2022-02-15T13:18:26.969+01:00",
+                    "2022-02-15T13:18:27.236+01:00"
                 ],
                 "brightness": [
                     0.309,
@@ -384,6 +315,124 @@
                     "2022-02-22T13:18:26.595+01:00",
                     "2022-02-22T13:18:26.702+01:00",
                     "2022-02-22T13:18:26.953+01:00"
+                ]
+            },
+            "playback_ended": "2022-02-15T17:51:31.872+01:00",
+            "video_duration": 90020,
+            "timezone_offset": -60,
+            "playback_started": "2022-02-15T17:51:22.036+01:00",
+            "query_started": "2022-02-15T17:51:33.000+01:00",
+            "user_feedback": [
+                {
+                    "video": "cudotworcy_vmaf100.mp4",
+                    "external_id": "xxxxx",
+                    "date": "2022-01-07T20:18:46.889000+01:00",
+                    "comment": "1111"
+                },
+                {
+                    "video": "cudotworcy_vmaf100.mp4",
+                    "external_id": "xxxxx",
+                    "date": "2022-01-07T20:48:46.889000+01:00",
+                    "comment": "22222"
+                }
+            ]
+        }
+    },
+    {
+        "date": "2022-02-15T18:52:09.104000+01:00",
+        "external_id": "xxxxx",
+        "result": {
+            "video": "cudotworcy_vmaf100_B.mp4",
+            "service": "A",
+            "timezone": "Europe/Warsaw",
+            "reply_form": [],
+            "device_info": {
+                "os": "ios",
+                "brand": "Apple",
+                "model": "iPhone 11",
+                "os_name": "iOS",
+                "model_id": "iPhone12,1",
+                "os_version": "15.0.2",
+                "manufacturer": "Apple",
+                "device_year_class": 2019,
+                "platform_api_level": null
+            },
+            "memory_free": 105883994647,
+            "memory_total": 127933894656,
+            "playback_data": {
+                "playing": [
+                    true,
+                    true,
+                    true
+                ],
+                "timestamp": [
+                    "2022-02-15T15:18:26.718+01:00",
+                    "2022-02-15T13:18:26.969+01:00",
+                    "2022-02-15T13:18:27.236+01:00"
+                ],
+                "brightness": [
+                    0.309,
+                    0.309,
+                    0.309
+                ],
+                "position_ms": [
+                    105,
+                    355,
+                    622
+                ],
+                "fullscreen_status": [
+                    "FULLSCREEN",
+                    "FULLSCREEN",
+                    "FULLSCREEN"
+                ],
+                "phone_orientation": [
+                    "LANDSCAPE_LEFT",
+                    "LANDSCAPE_LEFT",
+                    "LANDSCAPE_LEFT"
+                ]
+            },
+            "gyroscope_data": {
+                "x": [
+                    -0.13415,
+                    -0.41659,
+                    -1.06231
+                ],
+                "y": [
+                    0.00986,
+                    -0.20534,
+                    -1.25894
+                ],
+                "z": [
+                    0.09562,
+                    0.08401,
+                    -0.23235
+                ],
+                "timestamp": [
+                    "2022-02-15T13:18:26.582+01:00",
+                    "2022-02-15T13:18:26.596+01:00",
+                    "2022-02-15T13:18:26.657+01:00"
+                ]
+            },
+             "accelerometer_data": {
+                "x": [
+                    0.18225,
+                    0.07817,
+                    0.07632
+                ],
+                "y": [
+                    -0.40172,
+                    -0.27171,
+                    -0.2852
+                ],
+                "z": [
+                    -0.82333,
+                    -0.91039,
+                    -0.96754
+                ],
+                "timestamp": [
+                    "2022-02-15T13:18:26.595+01:00",
+                    "2022-02-15T13:18:26.702+01:00",
+                    "2022-02-15T13:18:26.953+01:00"
                 ]
             },
             "playback_ended": "2022-02-15T17:51:31.872+01:00",
