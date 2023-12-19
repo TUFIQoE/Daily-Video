@@ -1,0 +1,2 @@
+# revoke .json local files
+!*.json

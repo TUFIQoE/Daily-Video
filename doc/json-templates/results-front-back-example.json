@@ -1,0 +1,324 @@
+{
+    "date": "2022-02-15T17:52:09.104000+01:00",
+    "external_id": "xxxxx",
+    "result": {
+            "video": "vmaf80_denver.mp4",
+            "service": "",
+            "timezone": "Europe/Warsaw",
+            "reply_form": {
+                "started": "2022-02-22T13:18:53.047+01:00",
+                "ended": "2022-02-22T13:19:18.467+01:00",
+                "content": [
+                    {
+                        "type": "MOS",
+                        "answer": {
+                            "value": 4,
+                            "started": "2022-02-22T13:18:53.068+01:00",
+                            "timestamp": "2022-02-22T13:18:55.155+01:00"
+                        },
+                        "buttons": [
+                            {
+                                "button_text": [
+                                    {
+                                        "text": "1. Zła",
+                                        "language": "pol"
+                                    },
+                                    {
+                                        "text": "1. Bad",
+                                        "language": "eng"
+                                    },
+                                    {
+                                        "text": "1. Lorem ipsum",
+                                        "language": "nor"
+                                    }
+                                ],
+                                "value": 1
+                            },
+                            {
+                                "button_text": [
+                                    {
+                                        "text": "2. Słaba",
+                                        "language": "pol"
+                                    },
+                                    {
+                                        "text": "2. Poor",
+                                        "language": "eng"
+                                    },
+                                    {
+                                        "text": "2. Lorem ipsum",
+                                        "language": "nor"
+                                    }
+                                ],
+                                "value": 2
+                            },
+                            {
+                                "button_text": [
+                                    {
+                                        "text": "3. Umiarkowana",
+                                        "language": "pol"
+                                    },
+                                    {
+                                        "text": "3. Fair",
+                                        "language": "eng"
+                                    },
+                                    {
+                                        "text": "3. Lorem ipsum",
+                                        "language": "nor"
+                                    }
+                                ],
+                                "value": 3
+                            },
+                            {
+                                "button_text": [
+                                    {
+                                        "text": "4. Zła",
+                                        "language": "pol"
+                                    },
+                                    {
+                                        "text": "4. Good",
+                                        "language": "eng"
+                                    },
+                                    {
+                                        "text": "4. Lorem ipsum",
+                                        "language": "nor"
+                                    }
+                                ],
+                                "value": 4
+                            },
+                            {
+                                "button_text": [
+                                    {
+                                        "text": "5. Wspaniała",
+                                        "language": "pol"
+                                    },
+                                    {
+                                        "text": "5. Excellent",
+                                        "language": "eng"
+                                    },
+                                    {
+                                        "text": "5. Lorem ipsum",
+                                        "language": "nor"
+                                    }
+                                ],
+                                "value": 5
+                            }
+                        ],
+                        "description": [
+                            {
+                                "text": "Assess the video quality on scale of 1 to 5",
+                                "language": "eng"
+                            },
+                            {
+                                "text": "Oceń w skali od 1 do 5",
+                                "language": "pol"
+                            },
+                            {
+                                "text": "Lorem ipsum",
+                                "language": "nor"
+                            }
+                        ],
+                        "optional_id": "q1"
+                    },
+                    {
+                        "type": "MOS",
+                        "answer": {
+                            "value": true,
+                            "started": "2022-02-22T13:18:55.855+01:00",
+                            "timestamp": "2022-02-22T13:18:57.095+01:00"
+                        },
+                        "buttons": [
+                            {
+                                "button_text": [
+                                    {
+                                        "text": "Tak",
+                                        "language": "pol"
+                                    },
+                                    {
+                                        "text": "Yes",
+                                        "language": "eng"
+                                    },
+                                    {
+                                        "text": "Ja",
+                                        "language": "nor"
+                                    }
+                                ],
+                                "value": true
+                            },
+                            {
+                                "button_text": [
+                                    {
+                                        "text": "Nie",
+                                        "language": "pol"
+                                    },
+                                    {
+                                        "text": "No",
+                                        "language": "eng"
+                                    },
+                                    {
+                                        "text": "Nein",
+                                        "language": "nor"
+                                    }
+                                ],
+                                "value": false
+                            }
+                        ],
+                        "description": [
+                            {
+                                "text": "Did you watch the whole movie without video seeking?",
+                                "language": "eng"
+                            },
+                            {
+                                "text": "Czy obejrzałeś/aś cały film bez przewijania do przodu?",
+                                "language": "pol"
+                            },
+                            {
+                                "text": "Lorem ipsum",
+                                "language": "nor"
+                            }
+                        ],
+                        "optional_id": "q2"
+                    },
+                    {
+                        "type": "TEXT",
+                        "answer": {
+                            "value": "Krótkie i mało interesujące.",
+                            "started": "2022-02-22T13:18:57.579+01:00",
+                            "timestamp": "2022-02-22T13:19:16.473+01:00"
+                        },
+                        "description": [
+                            {
+                                "text": "What do you think about the video?",
+                                "language": "eng"
+                            },
+                            {
+                                "text": "Co sądzisz?",
+                                "language": "pol"
+                            },
+                            {
+                                "text": "Lorem ipsum",
+                                "language": "nor"
+                            }
+                        ],
+                        "optional_id": "q4"
+                    },
+                    {
+                        "type": "QUALTRICS",
+                        "answer": {
+                            "value": null,
+                            "started": "2022-02-22T13:19:17.906+01:00",
+                            "timestamp": "2022-02-22T13:19:18.460+01:00"
+                        },
+                        "description": [
+                            {
+                                "text": "Additional question on WWW page",
+                                "language": "eng"
+                            },
+                            {
+                                "text": "Dodatkowe pytania na stronie WWW",
+                                "language": "pol"
+                            },
+                            {
+                                "text": "Lorem ipsum",
+                                "language": "nor"
+                            }
+                        ],
+                        "optional_id": "q3",
+                        "qualtrics_url": "https://survey.qualtrics.com/jfe/form/SV_9GfoihavJJR5R7U?Client=ATT&Client=Sprint"
+                    }
+                ]
+            },
+            "device_info": {
+                "os": "ios",
+                "brand": "Apple",
+                "model": "iPhone 11",
+                "os_name": "iOS",
+                "model_id": "iPhone12,1",
+                "os_version": "15.0.2",
+                "manufacturer": "Apple",
+                "device_year_class": 2019,
+                "platform_api_level": null
+            },
+            "memory_free": 111635130809,
+            "memory_total": 127933894656,
+            "playback_data": {
+                "playing": [
+                    true,
+                    true,
+                    true
+                ],
+                "timestamp": [
+                    "2022-02-22T13:18:26.718+01:00",
+                    "2022-02-22T13:18:26.969+01:00",
+                    "2022-02-22T13:18:27.236+01:00"
+                ],
+                "brightness": [
+                    0.309,
+                    0.309,
+                    0.309
+                ],
+                "position_ms": [
+                    105,
+                    355,
+                    622
+                ],
+                "fullscreen_status": [
+                    "FULLSCREEN",
+                    "FULLSCREEN",
+                    "FULLSCREEN"
+                ],
+                "phone_orientation": [
+                    "LANDSCAPE_LEFT",
+                    "LANDSCAPE_LEFT",
+                    "LANDSCAPE_LEFT"
+                ]
+            },
+            "gyroscope_data": {
+                "x": [
+                    -0.13415,
+                    -0.41659,
+                    -1.06231
+                ],
+                "y": [
+                    0.00986,
+                    -0.20534,
+                    -1.25894
+                ],
+                "z": [
+                    0.09562,
+                    0.08401,
+                    -0.23235
+                ],
+                "timestamp": [
+                    "2022-02-22T13:18:26.582+01:00",
+                    "2022-02-22T13:18:26.596+01:00",
+                    "2022-02-22T13:18:26.657+01:00"
+                ]
+            },
+            "playback_ended": "2022-02-22T13:18:50.821+01:00",
+            "video_duration": 24162,
+            "timezone_offset": -60,
+            "playback_started": "2022-02-22T13:18:26.448+01:00",
+            "accelerometer_data": {
+                "x": [
+                    0.18225,
+                    0.07817,
+                    0.07632
+                ],
+                "y": [
+                    -0.40172,
+                    -0.27171,
+                    -0.2852
+                ],
+                "z": [
+                    -0.82333,
+                    -0.91039,
+                    -0.96754
+                ],
+                "timestamp": [
+                    "2022-02-22T13:18:26.595+01:00",
+                    "2022-02-22T13:18:26.702+01:00",
+                    "2022-02-22T13:18:26.953+01:00"
+                ]
+            }
+        }
+}

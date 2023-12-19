@@ -1,0 +1,340 @@
+{
+    "name": "Jan",
+    "surname": "Kowalski",
+    "phone": "1234567",
+    "language": "PL",
+    "external_id": "1lf918hfa",
+    "comments": "",
+    "schedule": [
+        {
+            "start": "2021-12-01T00:00:00",
+            "end": "2021-12-01T23:59:59",
+            "service": [
+                {
+                    "service_name": "A",
+                    "video": "subset1/Shrek_h264_q21_FHD_jan.avi"
+                },
+                {
+                    "service_name": "B",
+                    "video": "subset1/Shrek_h264_q21_FHD_go.avi"
+                },
+                {
+                    "service_name": "C",
+                    "video": "subset1/Shrek_h264_q21_FHD_cd.avi"
+                }
+            ],
+            "reply_form": [
+                {
+                    "optional_id": "q1",
+                    "type": "MOS",
+                    "buttons": [
+                        {
+                            "value": 1,
+                            "button_text": [
+                                {
+                                    "language": "pol",
+                                    "text": "1. Zła"
+                                },
+                                {
+                                    "language": "eng",
+                                    "text": "1. Bad"
+                                },
+                                {
+                                    "language": "nor",
+                                    "text": "1. Lorem ipsum"
+                                }
+                            ]
+                        },
+                        {
+                            "value": 2,
+                            "button_text": [
+                                {
+                                    "language": "pol",
+                                    "text": "2. Słaba"
+                                },
+                                {
+                                    "language": "eng",
+                                    "text": "2. Poor"
+                                },
+                                {
+                                    "language": "nor",
+                                    "text": "2. Lorem ipsum"
+                                }
+                            ]
+                        },
+                        {
+                            "value": 3,
+                            "button_text": [
+                                {
+                                    "language": "pol",
+                                    "text": "3. Umiarkowana"
+                                },
+                                {
+                                    "language": "eng",
+                                    "text": "3. Fair"
+                                },
+                                {
+                                    "language": "nor",
+                                    "text": "3. Lorem ipsum"
+                                }
+                            ]
+                        },
+                        {
+                            "value": 4,
+                            "button_text": [
+                                {
+                                    "language": "pol",
+                                    "text": "4. Dobra"
+                                },
+                                {
+                                    "language": "eng",
+                                    "text": "4. Good"
+                                },
+                                {
+                                    "language": "nor",
+                                    "text": "4. Lorem ipsum"
+                                }
+                            ]
+                        },
+                        {
+                            "value": 5,
+                            "button_text": [
+                                {
+                                    "language": "pol",
+                                    "text": "5. Wspaniała"
+                                },
+                                {
+                                    "language": "eng",
+                                    "text": "5. Excellent"
+                                },
+                                {
+                                    "language": "nor",
+                                    "text": "5. Lorem ipsum"
+                                }
+                            ]
+                        }
+                    ],
+                    "description": [
+                        {
+                            "language": "eng",
+                            "text": "Assess the video quality on scale of 1 to 5"
+                        },
+                        {
+                            "language": "pol",
+                            "text": "Oceń jakość wideo w skali od 1 do 5"
+                        },
+                        {
+                            "language": "nor",
+                            "text": "Lorem ipsum"
+                        }
+                    ]
+                },
+                {
+                    "optional_id": "q2",
+                    "type": "MOS",
+                    "buttons": [
+                        {
+                            "value": true,
+                            "button_text": [
+                                {
+                                    "language": "pol",
+                                    "text": "Tak"
+                                },
+                                {
+                                    "language": "eng",
+                                    "text": "Yes"
+                                },
+                                {
+                                    "language": "nor",
+                                    "text": "Ja"
+                                }
+                            ]
+                        },
+                        {
+                            "value": false,
+                            "button_text": [
+                                {
+                                    "language": "pol",
+                                    "text": "Nie"
+                                },
+                                {
+                                    "language": "eng",
+                                    "text": "No"
+                                },
+                                {
+                                    "language": "nor",
+                                    "text": "Nein"
+                                }
+                            ]
+                        }
+                    ],
+                    "description": [
+                        {
+                            "language": "eng",
+                            "text": "Did you watch the whole movie without video seeking?"
+                        },
+                        {
+                            "language": "pol",
+                            "text": "Czy obejrzałeś/aś cały film bez przewijania do przodu?"
+                        },
+                        {
+                            "language": "nor",
+                            "text": "Lorem ipsum"
+                        }
+                    ]
+                },
+                {
+                    "optional_id": "q3",
+                    "type": "TEXT",
+                    "description": [
+                        {
+                            "language": "eng",
+                            "text": "What do you think about the video?"
+                        },
+                        {
+                            "language": "pol",
+                            "text": "Co sądzisz?"
+                        },
+                        {
+                            "language": "nor",
+                            "text": "Lorem ipsum"
+                        }
+                    ]
+                },
+                {
+                    "optional_id": "q4",
+                    "type": "QUALTRICS",
+                    "qualtrics_url": "https://survey.qualtrics.com/jfe/form/SV_9GfoihavJJR5R7U?Client=ATT&Client=Sprint",
+                    "description": [
+                        {
+                            "language": "eng",
+                            "text": "Additional question on WWW page"
+                        },
+                        {
+                            "language": "pol",
+                            "text": "Dodatkowe pytania na stronie WWW"
+                        },
+                        {
+                            "language": "nor",
+                            "text": "Lorem ipsum"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "start": "2021-12-02T00:00:00",
+            "end": "2021-12-02T23:59:59",
+            "service": [
+                {
+                    "service_name": "",
+                    "video": "subset1/Shrek_h264_q21_FHD.avi"
+                }
+            ],
+            "reply_form": [
+                {
+                    "optional_id": "q1",
+                    "type": "MOS",
+                    "buttons": [
+                        {
+                            "value": 1,
+                            "button_text": [
+                                {
+                                    "language": "pol",
+                                    "text": "1. Zła"
+                                },
+                                {
+                                    "language": "eng",
+                                    "text": "1. Bad"
+                                },
+                                {
+                                    "language": "nor",
+                                    "text": "1. Lorem ipsum"
+                                }
+                            ]
+                        },
+                        {
+                            "value": 2,
+                            "button_text": [
+                                {
+                                    "language": "pol",
+                                    "text": "2. Słaba"
+                                },
+                                {
+                                    "language": "eng",
+                                    "text": "2. Poor"
+                                },
+                                {
+                                    "language": "nor",
+                                    "text": "2. Lorem ipsum"
+                                }
+                            ]
+                        },
+                        {
+                            "value": 3,
+                            "button_text": [
+                                {
+                                    "language": "pol",
+                                    "text": "3. Umiarkowana"
+                                },
+                                {
+                                    "language": "eng",
+                                    "text": "3. Fair"
+                                },
+                                {
+                                    "language": "nor",
+                                    "text": "3. Lorem ipsum"
+                                }
+                            ]
+                        },
+                        {
+                            "value": 4,
+                            "button_text": [
+                                {
+                                    "language": "pol",
+                                    "text": "4. Zła"
+                                },
+                                {
+                                    "language": "eng",
+                                    "text": "4. Good"
+                                },
+                                {
+                                    "language": "nor",
+                                    "text": "4. Lorem ipsum"
+                                }
+                            ]
+                        },
+                        {
+                            "value": 5,
+                            "button_text": [
+                                {
+                                    "language": "pol",
+                                    "text": "5. Wspaniała"
+                                },
+                                {
+                                    "language": "eng",
+                                    "text": "5. Excellent"
+                                },
+                                {
+                                    "language": "nor",
+                                    "text": "5. Lorem ipsum"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "service": [
+                {
+                    "service_name": "C",
+                    "video": "subset1/Shrek_h264_q21_FHD_cda.avi"
+                }
+            ],
+            "start": "2021-12-03T00:00:00",
+            "end": "2021-12-03T23:59:59",
+            "replay_form": []
+        }
+    ]
+}
