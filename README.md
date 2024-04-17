@@ -121,4 +121,20 @@ Entire project is licensed under [MIT license](LICENSE). Authors of individual c
 # CITATION
 If you reference or use **LST platform** in your research, please cite:
 
-TBD
+Jarosław Bułat, Natalia Cieplińska, Rafał Figlus, Lucjan Janowski, "Daily Video: A tool for quality of experience (QoE) in long-term context research," SoftwareX, Volume 25, 2024.
+
+@article{BULAT2024101637,
+title = {Daily Video: A tool for quality of experience (QoE) in long-term context research},
+journal = {SoftwareX},
+volume = {25},
+pages = {101637},
+year = {2024},
+issn = {2352-7110},
+doi = {https://doi.org/10.1016/j.softx.2024.101637},
+url = {https://www.sciencedirect.com/science/article/pii/S2352711024000086},
+author = {Jarosław Bułat and Natalia Cieplińska and Rafał Figlus and Lucjan Janowski},
+}
+
+# Acknowledgments
+
+The software development leading to this repository has received funding from the Norwegian Financial Mechanism 2014-2021 under project 2019/34/H/ST6/00599.
